@@ -1,0 +1,5 @@
+<mat-card>
+  <div *ngFor="let item of items | async" class="item">
+    <p>{{item.id}}.{{item.title}}</p>
+  </div>
+</mat-card>
