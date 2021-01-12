@@ -1,5 +1,13 @@
-<app-top-bar></app-top-bar>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+    <p>Lorem, ipsum dolor sit amet consectetur.</p>
+  </mat-drawer>
 
-<div class="container">
-  <app-data-list></app-data-list>
-</div>
+  <app-top-bar></app-top-bar>
+
+  <div class="container">
+    <app-data-list></app-data-list>
+  </div>
+
+</mat-drawer-container>
