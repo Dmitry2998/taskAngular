@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService} from '../http.service';
-import {Observable} from 'rxjs';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-data-list',
