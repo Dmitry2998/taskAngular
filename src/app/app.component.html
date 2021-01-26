@@ -1,5 +1,10 @@
 <mat-drawer-container autosize>
   <mat-drawer #drawer mode="side">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <button mat-icon-button aria-label="Example icon button with a menu icon" (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fuga nulla non quisquam pariatur. Similique ullam
       necessitatibus ratione molestias eum placeat quae quas consectetur veritatis id impedit, reprehenderit odio!
       Laboriosam.
