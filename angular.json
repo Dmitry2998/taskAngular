@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "taskAngular"
+  "defaultProject": "taskAngular",
+  "cli": {
+    "analytics": false
+  }
 }
